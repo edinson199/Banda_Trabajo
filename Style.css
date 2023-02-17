@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+}
+body{
+	/* para agragar el nombre de la tipografi o tipo de letra*/
+	font-family: "Roboto";
+	font-size: 14px;
+    margin: 1px;
+    padding: 1px;
+}
+header {
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+}
+main{
+    display: block;
+}
+header .container{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	
+}
+header .container .logo{
+	width: 100px;
+}
+header .container nav a{
+	color: red;
+	text-decoration: none;
+	margin: 0 15px;
+    font-size: 20px;
+}
+a{
+	display: inline-block;
+}
+img{
+    border-style: none;
+}
+p{
+    color: black;
+    text-align: justify;
+}
+footer{
+    background-color: gray;
+    color: white;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+#Principal .bloque-principal p{
+    color: white;
+    font-size: 25px;
+}
+#Principal .bloque-principal h1{
+    color: red;
+    font-size: 45px;
+}
+
+#Principal{
+    position: relative;
+}
+#Principal img{
+	width: 100%;
+	display: block;
+}
+#Principal .bloque-principal {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    text-align: center;
+    margin-left: -200px;
+}
+#Biografia{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5PX;
+}
+#Biografia .bloque-biografia{
+    background-color: rgb(122, 118, 118);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#Biografia .bloque-biografia p{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+#Biografia .bloque-biografia h2{
+    font-size: 42px;
+    color: red;
+    text-align: center;
+}
+#repertorio .Bloque2 .Bloque-contenido{
+    padding: 15px;
+}
+#repertorio .Bloque2 .Bloque-contenido h3{
+    margin-top: 0;
+    font-size: 28px;
+    text-align: center;
+}
+.seccion{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Conta{
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+.Conta2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.Bloque2{
+    width: 465px;
+    height: 695px;
+}
+.Bloque1{
+    width: 33.33%;
+    margin-bottom: 25px;
+}
+#repertorio .Bloque2{
+    border: 4px solid gray;
+    border-radius: 12PX;
+}
+#repertorio .Bloque2 .Bloque-imagen.cuadrado{
+    padding-bottom: 2%;
+}
+.cuadrado{
+    width: 100%;
+    position: relative;
+}
+#repertorio .Bloque2 .Bloque-imagen img{
+    width: 100%;
+}
+.cuadrado img{
+    width: 100%;
+    height: 100%;
+    object-position: center;  
+    top: 0;
+    left: 0;
+}
+.Bloque{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.container1{
+    width: 1140px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+.contenido{
+    background-color: grey;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.categorias{
+    width: 100%;
+    height: 62px;
+    background-color: #f11707;
+    padding: 17px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 22PX;
+    color: #fff;
+}
+.categorias a{
+    text-decoration: none;
+    color: white;
+}
+.categorias a:hover{
+    color: #fd1d0d;
+}
+.categorias:hover{
+    background-color: grey;
+}
+  
+    
+.container{
+	width: 1140px;
+	margin: 0 auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	position: relative;
+    justify-content: space-around;
+}
+.boton{
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 20px;
+	border: none;
+}
+.boton.boton-rojo{
+	color: white;
+	background-color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+.contenido{
+    background-color: gray;
+}
+.container1 .contenido h4{
+    color: red;
+    font-size: 20px;
+}
